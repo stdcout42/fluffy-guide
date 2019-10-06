@@ -4,7 +4,9 @@ CT project: Creditcards
 ## Code
 - Has ATM class which processe cards, returning true if the card has a valid number.
 - There are some tests which can be expanded
-
+### Run
+1. Run the command "make" in /creditcard/cmake-build-debug/.
+2. Run creditcard binary
 ## Flowcharts
 Links:
 - https://drive.google.com/open?id=1shytrZuu7CvrwT49qua1GFMqJB0XO5sW
