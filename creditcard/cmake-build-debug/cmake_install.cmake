@@ -1,4 +1,4 @@
-# Install script for directory: /home/sam/CLionProjects/creditcard
+# Install script for directory: /home/sam/github/fluffy-guide/creditcard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sam/CLionProjects/creditcard/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

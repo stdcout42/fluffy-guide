@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sam/CLionProjects/creditcard/ATM.cpp" "/home/sam/CLionProjects/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir/ATM.cpp.o"
-  "/home/sam/CLionProjects/creditcard/CreditCard.cpp" "/home/sam/CLionProjects/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir/CreditCard.cpp.o"
-  "/home/sam/CLionProjects/creditcard/main.cpp" "/home/sam/CLionProjects/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir/main.cpp.o"
+  "/home/sam/github/fluffy-guide/creditcard/ATM.cpp" "/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir/ATM.cpp.o"
+  "/home/sam/github/fluffy-guide/creditcard/CreditCard.cpp" "/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir/CreditCard.cpp.o"
+  "/home/sam/github/fluffy-guide/creditcard/main.cpp" "/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -31,7 +31,7 @@ public:
 
     int getNumDigits(long long number);
 
-    int getFirstndigits(int n, long long number);
+    int getFirstnDigits(int n, long long number);
 };
 
 

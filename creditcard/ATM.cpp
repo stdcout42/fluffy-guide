@@ -16,7 +16,7 @@ bool ATM::processCard(CreditCard cc) {
 }
 
 CC_TYPE ATM::getType(CreditCard cc) {
-    int ccFirstDigit = getFirstndigits(1, cc.getNumber());
+    int ccFirstDigit = getFirstnDigits(1, cc.getNumber());
     switch(ccFirstDigit) {
         case MASTERCARD:
             return MASTERCARD;
@@ -38,9 +38,9 @@ int ATM::getNumDigits(long long number) {
     return nDigits;
 }
 
-int ATM::getFirstndigits(int n, long long number) {
+int ATM::getFirstnDigits(int n, long long number) {
    if(getNumDigits(number) == n) return number;
-   else return getFirstndigits(n, number / 10);
+   else return getFirstnDigits(n, number / 10);
 }
 
 bool ATM::isValidCardNumber(long long number) {

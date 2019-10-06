@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/sam/CLionProjects/creditcard/ATM.h
+/home/sam/github/fluffy-guide/creditcard/ATM.cpp
+iostream
+-
+ATM.h
+/home/sam/github/fluffy-guide/creditcard/ATM.h
+
+/home/sam/github/fluffy-guide/creditcard/ATM.h
 vector
 -
 CreditCard.h
-/home/sam/CLionProjects/creditcard/CreditCard.h
+/home/sam/github/fluffy-guide/creditcard/CreditCard.h
 
-/home/sam/CLionProjects/creditcard/CreditCard.h
+/home/sam/github/fluffy-guide/creditcard/CreditCard.h
 
-/home/sam/CLionProjects/creditcard/catch.hpp
+/home/sam/github/fluffy-guide/creditcard/catch.hpp
 TargetConditionals.h
 -
 ciso646
@@ -384,7 +390,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/home/sam/CLionProjects/creditcard/Foundation/Foundation.h
+/home/sam/github/fluffy-guide/creditcard/Foundation/Foundation.h
 algorithm
 -
 random
@@ -576,9 +582,9 @@ algorithm
 cassert
 -
 
-/home/sam/CLionProjects/creditcard/main.cpp
+/home/sam/github/fluffy-guide/creditcard/main.cpp
 catch.hpp
-/home/sam/CLionProjects/creditcard/catch.hpp
+/home/sam/github/fluffy-guide/creditcard/catch.hpp
 ATM.h
-/home/sam/CLionProjects/creditcard/ATM.h
+/home/sam/github/fluffy-guide/creditcard/ATM.h
 
