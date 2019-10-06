@@ -40,7 +40,7 @@ int ATM::getNumDigits(long long number) {
 
 int ATM::getFirstndigits(int n, long long number) {
    if(getNumDigits(number) == n) return number;
-   else getFirstndigits(n, number / 10);
+   else return getFirstndigits(n, number / 10);
 }
 
 bool ATM::isValidCardNumber(long long number) {
