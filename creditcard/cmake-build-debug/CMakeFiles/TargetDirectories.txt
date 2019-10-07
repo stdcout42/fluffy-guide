@@ -1,3 +1,0 @@
-/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/CMakeFiles/creditcard.dir
-/home/sam/github/fluffy-guide/creditcard/cmake-build-debug/CMakeFiles/edit_cache.dir
