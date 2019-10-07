@@ -44,7 +44,7 @@ int ATM::getFirstnDigits(int n, long long number) {
 }
 
 bool ATM::isValidCardNumber(long long number) {
-    return ((addDoubleOfEverySecondDigit(number) + addAllOddDigits(number)) % 10 == 0) && getNumDigits(number) > 12 &&
+    return ((addDoubleOfAllEvenDigits(number) + addAllOddDigits(number)) % 10 == 0) && getNumDigits(number) > 12 &&
            getNumDigits(number) < 17;
 }
 
@@ -61,7 +61,7 @@ int ATM::addAllOddDigits(long long number) {
     return result;
 }
 
-int ATM::addDoubleOfEverySecondDigit(long long number) {
+int ATM::addDoubleOfAllEvenDigits(long long number) {
     int result = 0;
     number /= 10;
     while (number) {

@@ -20,7 +20,7 @@ public:
     bool isValidCardNumber(long long number);
 
     // From right to left
-    int addDoubleOfEverySecondDigit(long long number);
+    int addDoubleOfAllEvenDigits(long long number);
 
     int getSumOfTwoDigits(int twoDigitNum);
 

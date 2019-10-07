@@ -8,10 +8,10 @@ TEST_CASE("Number of digits") {
     REQUIRE(atm.getNumDigits(4388576018410707) == 16);
 }
 
-TEST_CASE("Add double of every second digit", "[addDoubleOfEverySecondDigit]") {
+TEST_CASE("Add double of every second digit", "[addDoubleOfAllEvenDigits]") {
     ATM atm = ATM();
-    REQUIRE(atm.addDoubleOfEverySecondDigit(101010) == 6);
-    REQUIRE(atm.addDoubleOfEverySecondDigit(4388576018402626) == 37);
+    REQUIRE(atm.addDoubleOfAllEvenDigits(101010) == 6);
+    REQUIRE(atm.addDoubleOfAllEvenDigits(4388576018402626) == 37);
 }
 
 TEST_CASE("Add all odd digits", "[addAllOddDigits]") {
